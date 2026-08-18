@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHubActionson: [push]
+#run-name: ${{ github.actor }} is learning GitHubActionson: [push]
 jobs:
    check-bats-version:
    runs-on: ubuntu-latest

@@ -10,7 +10,8 @@ jobs:
 
     steps:
       - name: Checkout source code
-        uses: actions/checkout      - name: Setup Python
+        uses: actions/checkout      
+      - name: Setup Python
         uses: actions/setup-python
         with:
           python-version: "3.12"
